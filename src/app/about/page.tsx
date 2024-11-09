@@ -1,6 +1,6 @@
 
 
-import ProjectsPage from "../components/project"
+
 
 
 export default function About(){
@@ -19,7 +19,7 @@ export default function About(){
                  scalable, and impactful software solutions.</p>
               
                
-               <ProjectsPage/>
+              
         </main>
     )
 }

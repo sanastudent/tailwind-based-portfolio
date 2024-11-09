@@ -48,7 +48,9 @@ const projects = [
 const ProjectsPage = () => {
   return (
     <div className="container mx-auto px-4 py-6">
-      <h1 className="text-3xl font-bold mb-4 text-emerald-800">My Projects</h1>
+      <h1 className="text-3xl font-bold mb-4 text-emerald-800">My Projects Collection</h1>
+      <p className="mb-9 font-semibold from-neutral-800">This collection features a series of interactive applications built using TypeScript, each designed to showcase fundamental
+      programming concepts and the benefits of strong typing, maintainability, and scalability.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {projects.map((project, index) => (
           <ProjectCard
